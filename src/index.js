@@ -5,7 +5,11 @@ import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
-
+const FunCom = (props)=>{
+    return <div>
+        {props.name}
+    </div>
+}
 
 const app = (
     <section>
@@ -13,6 +17,7 @@ const app = (
         <a href="https://github.com/" >github</a>
         <div>==================</div>
         纯文本
+        <FunCom name="函数组件"/>
     </section>
 )
 
